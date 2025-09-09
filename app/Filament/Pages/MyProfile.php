@@ -23,6 +23,7 @@ class MyProfile extends Page implements HasForms
     protected static ?string $title = 'Pengaturan Profil'; // Mengatur judul halaman
     protected static ?string $navigationLabel = 'Pengaturan Profil'; // Mengatur label navigasi
 
+     protected static bool $shouldRegisterNavigation = false;
 
     public function mount(): void
     {
